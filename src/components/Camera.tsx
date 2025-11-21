@@ -1,6 +1,7 @@
 import { useFrame, useThree } from "@react-three/fiber";
 import { useRef } from "react";
 import * as THREE from "three";
+import type React from "react";
 
 interface CameraProps {
   target: React.RefObject<THREE.Mesh | null>;
